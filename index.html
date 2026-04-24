@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GearShift BD – Bike Accessories For Every Ride</title>
+  <link rel="icon" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="GearShift BD Logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#order" class="nav-cta">Order Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#order">Order</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-cover">
+      <img src="images/cover.png" alt="GearShift BD Cover" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tagline">GEAR UP. SHIFT UP. RIDE ON.</p>
+      <h1 class="hero-title">BIKE ACCESSORIES<br/><span class="red">FOR EVERY RIDE</span></h1>
+      <p class="hero-sub">Premium quality motorcycle gear, accessories & repair services delivered across Bangladesh.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn-primary">Shop Now</a>
+        <a href="#order" class="btn-outline">Place Order</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><span class="badge-icon">🛡️</span><span>Safety First</span></div>
+        <div class="badge"><span class="badge-icon">⚡</span><span>Performance</span></div>
+        <div class="badge"><span class="badge-icon">🚚</span><span>Fast Delivery</span></div>
+        <div class="badge"><span class="badge-icon">⭐</span><span>Trusted Riders</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES STRIP -->
+  <div class="features-strip">
+    <div class="feature"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4z"/></svg><span>Premium Quality</span></div>
+    <div class="feature"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M6.34 17.66l-1.41 1.41M1 12h2M21 12h2M6.34 6.34L4.93 4.93M19.07 19.07l-1.41-1.41M12 1v2M12 21v2"/></svg><span>Wide Range</span></div>
+    <div class="feature"><svg viewBox="0 0 24 24"><path d="M5 12H19M12 5l7 7-7 7"/></svg><span>Fast Delivery</span></div>
+    <div class="feature"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81 19.79 19.79 0 01.01 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span>Customer First</span></div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section">
+    <div class="section-header">
+      <p class="section-label">OUR COLLECTION</p>
+      <h2>TOP <span class="red">PRODUCTS</span></h2>
+      <p class="section-sub">Hand-picked accessories for every rider — from commuters to racers.</p>
+    </div>
+    <div class="category-tabs">
+      <button class="tab active" data-cat="all">All</button>
+      <button class="tab" data-cat="helmet">Helmets</button>
+      <button class="tab" data-cat="gloves">Gloves</button>
+      <button class="tab" data-cat="lights">Lights</button>
+      <button class="tab" data-cat="parts">Parts</button>
+      <button class="tab" data-cat="accessories">Accessories</button>
+    </div>
+    <div class="products-grid" id="productsGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section dark-section">
+    <div class="section-header">
+      <p class="section-label">WHAT WE DO</p>
+      <h2>OUR <span class="red">SERVICES</span></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🏍️</div>
+        <h3>Bike Accessories</h3>
+        <p>Full range of premium accessories — mirrors, grips, handlebars, foot pegs, and more for all bike models.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🪖</div>
+        <h3>Riding Gear</h3>
+        <p>Certified helmets, riding gloves, jackets, and protective gear from top international brands.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Repair & Servicing</h3>
+        <p>Expert bike repair, tune-up, and maintenance services by certified mechanics at our workshop.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💡</div>
+        <h3>LED & Lighting</h3>
+        <p>High-performance LED headlights, DRL strips, turn signals, and auxiliary lights for night riding.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <h3>Gadgets & Mounts</h3>
+        <p>Phone mounts, action camera mounts, GPS holders, USB chargers and smart bike gadgets.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚚</div>
+        <h3>Home Delivery</h3>
+        <p>Fast and reliable delivery across Bangladesh. Order online and get it at your door — hassle-free.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us section">
+    <div class="why-left">
+      <img src="images/logo.png" alt="GearShift BD" class="why-logo" />
+      <div class="why-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Products</span></div>
+        <div class="stat"><span class="stat-num">2K+</span><span class="stat-label">Happy Riders</span></div>
+        <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Avg Rating</span></div>
+        <div class="stat"><span class="stat-num">48h</span><span class="stat-label">Delivery</span></div>
+      </div>
+    </div>
+    <div class="why-right">
+      <p class="section-label">WHY CHOOSE US</p>
+      <h2>RIDE WITH <span class="red">CONFIDENCE</span></h2>
+      <p class="why-desc">GearShift BD is Bangladesh's trusted destination for premium motorcycle accessories and riding gear. We source directly from top manufacturers to ensure authenticity and quality on every product.</p>
+      <ul class="why-list">
+        <li><span class="check">✔</span> 100% Authentic Products</li>
+        <li><span class="check">✔</span> Competitive Prices, No Hidden Charges</li>
+        <li><span class="check">✔</span> Expert Product Advice & Support</li>
+        <li><span class="check">✔</span> Easy Returns & After-Sales Service</li>
+        <li><span class="check">✔</span> Nationwide Delivery via Courier</li>
+      </ul>
+      <a href="#order" class="btn-primary">Order Now</a>
+    </div>
+  </section>
+
+  <!-- ORDER FORM -->
+  <section id="order" class="section dark-section">
+    <div class="section-header">
+      <p class="section-label">PLACE YOUR ORDER</p>
+      <h2>ORDER <span class="red">ONLINE</span></h2>
+      <p class="section-sub">Fill in your details and we'll confirm your order via WhatsApp or phone.</p>
+    </div>
+    <div class="order-container">
+      <div class="order-form-wrap">
+        <div class="form-group">
+          <label>Your Full Name *</label>
+          <input type="text" id="fname" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label>Phone Number *</label>
+          <input type="tel" id="fphone" placeholder="+880 1XXXXXXXXX" />
+        </div>
+        <div class="form-group">
+          <label>Delivery Address *</label>
+          <input type="text" id="faddress" placeholder="District, Thana, Full Address" />
+        </div>
+        <div class="form-group">
+          <label>Product(s) You Want *</label>
+          <textarea id="fproduct" rows="3" placeholder="e.g. XOR Full Face Helmet (Black/Red), Size M — Qty: 1"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Additional Notes</label>
+          <textarea id="fnotes" rows="2" placeholder="Any special requests or questions?"></textarea>
+        </div>
+        <button class="btn-primary full-btn" id="orderBtn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.134.558 4.134 1.535 5.872L.057 23.428a.5.5 0 00.515.572l5.701-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.99 0-3.85-.58-5.418-1.576l-.386-.242-4.005 1.05 1.069-3.9-.252-.402A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Send Order via WhatsApp
+        </button>
+        <p class="order-note">📞 Or call us directly: <a href="tel:+8801941911517">+880 1941-911517</a></p>
+      </div>
+      <div class="order-info">
+        <div class="info-card">
+          <h4>📦 How It Works</h4>
+          <ol>
+            <li>Fill the order form</li>
+            <li>We confirm via WhatsApp/call</li>
+            <li>Pay on delivery or bKash</li>
+            <li>Receive at your doorstep</li>
+          </ol>
+        </div>
+        <div class="info-card">
+          <h4>🚚 Delivery Info</h4>
+          <ul>
+            <li>Dhaka: 1–2 days</li>
+            <li>Outside Dhaka: 2–4 days</li>
+            <li>Delivery via Pathao / Redx / SA Paribahan</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h4>💳 Payment Methods</h4>
+          <ul>
+            <li>Cash on Delivery</li>
+            <li>bKash / Nagad / Rocket</li>
+            <li>Bank Transfer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-header">
+      <p class="section-label">OUR STORY</p>
+      <h2>ABOUT <span class="red">GEARSHIFT BD</span></h2>
+    </div>
+    <div class="about-content">
+      <div class="about-img-wrap">
+        <img src="images/cover.png" alt="GearShift BD" class="about-img" />
+      </div>
+      <div class="about-text">
+        <p>GearShift BD was founded by passionate riders, for riders. We understand the road — the thrill, the risks, and the need for gear you can trust. From helmets that protect to accessories that perform, every product in our collection is handpicked with riders in mind.</p>
+        <p>Based in Bangladesh, we serve riders from Dhaka to Chittagong, Sylhet to Rajshahi. Our mission is simple: make premium motorcycle accessories accessible to every Bangladeshi rider at honest prices.</p>
+        <p>Whether you're a daily commuter, weekend tourer, or track enthusiast — GearShift BD has everything you need to <strong>Gear Up. Shift Up. Ride On.</strong></p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/17bX9HeQYJ/" target="_blank" class="social-btn facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Follow on Facebook
+          </a>
+          <a href="https://wa.me/8801941911517" target="_blank" class="social-btn whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.134.558 4.134 1.535 5.872L.057 23.428a.5.5 0 00.515.572l5.701-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.99 0-3.85-.58-5.418-1.576l-.386-.242-4.005 1.05 1.069-3.9-.252-.402A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark-section">
+    <div class="section-header">
+      <p class="section-label">GET IN TOUCH</p>
+      <h2>CONTACT <span class="red">US</span></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h4>Phone / WhatsApp</h4>
+        <a href="tel:+8801941911517">+880 1941-911517</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📘</div>
+        <h4>Facebook Page</h4>
+        <a href="https://www.facebook.com/share/17bX9HeQYJ/" target="_blank">@gearshiftbd</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🕐</div>
+        <h4>Business Hours</h4>
+        <p>Sat–Thu: 9 AM – 9 PM<br/>Friday: 2 PM – 9 PM</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h4>Location</h4>
+        <p>Bangladesh<br/>Nationwide Delivery</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="GearShift BD" />
+        <p>Bike Accessories For Every Ride</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#order">Order</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/share/17bX9HeQYJ/" target="_blank" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://wa.me/8801941911517" target="_blank" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.134.558 4.134 1.535 5.872L.057 23.428a.5.5 0 00.515.572l5.701-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.99 0-3.85-.58-5.418-1.576l-.386-.242-4.005 1.05 1.069-3.9-.252-.402A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 GearShift BD. All Rights Reserved. | Bike Accessories For Every Ride</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/8801941911517" class="wa-float" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.134.558 4.134 1.535 5.872L.057 23.428a.5.5 0 00.515.572l5.701-1.495A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.99 0-3.85-.58-5.418-1.576l-.386-.242-4.005 1.05 1.069-3.9-.252-.402A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
