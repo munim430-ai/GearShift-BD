@@ -726,3 +726,42 @@ body {
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* ===== PRODUCT IMAGE FIX ===== */
+.product-img {
+  position: relative;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+.product-img img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  display: block;
+  /* prevent alt text from rendering as huge text */
+  font-size: 0;
+  color: transparent;
+}
+.product-card:hover .product-img img { transform: scale(1.06); }
+
+/* Fallback when image fails */
+.product-img.img-fallback::after {
+  content: var(--icon, "🏍️");
+  font-size: 3.5rem;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Force aspect ratio and no text bleed */
+.product-img { aspect-ratio: 4/3; }
+
+@media (max-width: 768px) {
+  .product-img { aspect-ratio: 4/3; }
+  /* Fix alt text overflow on mobile */
+  .product-img img { font-size: 0 !important; }
+}
