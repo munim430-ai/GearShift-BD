@@ -1,17 +1,17 @@
 // ===== PRODUCTS DATA =====
 const products = [
-  { id: 1, cat: 'helmet', name: 'XOR Full Face Helmet', desc: 'Aerodynamic full-face with anti-scratch visor and ventilation system.', price: '৳3,500', emoji: '🪖', badge: 'Best Seller' },
-  { id: 2, cat: 'helmet', name: 'Open Face Retro Helmet', desc: 'Classic retro-style open face with comfortable inner lining.', price: '৳2,200', emoji: '⛑️', badge: null },
-  { id: 3, cat: 'gloves', name: 'Racing Gloves Pro', desc: 'Knuckle-protected full-finger riding gloves with grippy palm.', price: '৳850', emoji: '🧤', badge: 'Popular' },
-  { id: 4, cat: 'gloves', name: 'Summer Mesh Gloves', desc: 'Breathable mesh gloves for hot weather urban riding.', price: '৳550', emoji: '🤚', badge: null },
-  { id: 5, cat: 'lights', name: 'LED DRL Strip Light', desc: 'Universal daytime running light strip — bright, waterproof, easy install.', price: '৳650', emoji: '💡', badge: null },
-  { id: 6, cat: 'lights', name: 'H4 LED Headlight Bulb', desc: 'High-lumen LED H4 bulb with dual beam — 6000K white light.', price: '৳780', emoji: '🔦', badge: 'Hot' },
-  { id: 7, cat: 'parts', name: 'CNC Brake & Clutch Lever', desc: 'Adjustable CNC machined levers — universal fit, multiple colors.', price: '৳950', emoji: '🔩', badge: null },
-  { id: 8, cat: 'parts', name: 'Exhaust Silencer Cover', desc: 'Heat-resistant stainless exhaust shield for all bike types.', price: '৳1,100', emoji: '⚙️', badge: null },
-  { id: 9, cat: 'accessories', name: 'Phone Mount (360°)', desc: 'Universal rotating phone holder with vibration dampener.', price: '৳480', emoji: '📱', badge: null },
-  { id: 10, cat: 'accessories', name: 'USB Charger Port', desc: 'Weatherproof dual USB quick-charge port for 12V bikes.', price: '৳380', emoji: '🔌', badge: null },
-  { id: 11, cat: 'accessories', name: 'Handlebar Grip Set', desc: 'Anti-slip ergonomic grips with bar-end mirror compatibility.', price: '৳320', emoji: '🎛️', badge: null },
-  { id: 12, cat: 'accessories', name: 'Bike Cover (Waterproof)', desc: 'Heavy-duty waterproof cover for all bike sizes.', price: '৳750', emoji: '🛡️', badge: 'New' },
+  { id: 1, cat: 'helmet', name: 'XOR Full Face Helmet', desc: 'Aerodynamic full-face with anti-scratch visor and ventilation system.', price: '৳3,500', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop', badge: 'Best Seller' },
+  { id: 2, cat: 'helmet', name: 'Open Face Retro Helmet', desc: 'Classic retro-style open face with comfortable inner lining.', price: '৳2,200', img: 'https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=400&h=400&fit=crop', badge: null },
+  { id: 3, cat: 'gloves', name: 'Racing Gloves Pro', desc: 'Knuckle-protected full-finger riding gloves with grippy palm.', price: '৳850', img: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=400&h=400&fit=crop', badge: 'Popular' },
+  { id: 4, cat: 'gloves', name: 'Summer Mesh Gloves', desc: 'Breathable mesh gloves for hot weather urban riding.', price: '৳550', img: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400&h=400&fit=crop', badge: null },
+  { id: 5, cat: 'lights', name: 'LED DRL Strip Light', desc: 'Universal daytime running light strip — bright, waterproof, easy install.', price: '৳650', img: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=400&fit=crop', badge: null },
+  { id: 6, cat: 'lights', name: 'H4 LED Headlight Bulb', desc: 'High-lumen LED H4 bulb with dual beam — 6000K white light.', price: '৳780', img: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=400&fit=crop', badge: 'Hot' },
+  { id: 7, cat: 'parts', name: 'CNC Brake & Clutch Lever', desc: 'Adjustable CNC machined levers — universal fit, multiple colors.', price: '৳950', img: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=400&h=400&fit=crop', badge: null },
+  { id: 8, cat: 'parts', name: 'Exhaust Silencer Cover', desc: 'Heat-resistant stainless exhaust shield for all bike types.', price: '৳1,100', img: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=400&h=400&fit=crop', badge: null },
+  { id: 9, cat: 'accessories', name: 'Phone Mount (360°)', desc: 'Universal rotating phone holder with vibration dampener.', price: '৳480', img: 'https://images.unsplash.com/photo-1586244439413-bc2288941dda?w=400&h=400&fit=crop', badge: null },
+  { id: 10, cat: 'accessories', name: 'USB Charger Port', desc: 'Weatherproof dual USB quick-charge port for 12V bikes.', price: '৳380', img: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop', badge: null },
+  { id: 11, cat: 'accessories', name: 'Handlebar Grip Set', desc: 'Anti-slip ergonomic grips with bar-end mirror compatibility.', price: '৳320', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&crop=left', badge: null },
+  { id: 12, cat: 'accessories', name: 'Bike Cover (Waterproof)', desc: 'Heavy-duty waterproof cover for all bike sizes.', price: '৳750', img: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=400&h=400&fit=crop&crop=right', badge: 'New' },
 ];
 
 function renderProducts(filter = 'all') {
@@ -21,7 +21,7 @@ function renderProducts(filter = 'all') {
     <div class="product-card">
       <div class="product-img">
         ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ''}
-        <span>${p.emoji}</span>
+        <img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.parentElement.style.background='#2a2a2a'" />
       </div>
       <div class="product-body">
         <p class="product-cat">${p.cat}</p>
